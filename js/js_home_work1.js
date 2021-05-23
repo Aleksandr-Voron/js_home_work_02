@@ -40,10 +40,19 @@
 //8
 // const moneyInPoked = +prompt('сума в кармане?');
 // const priceСhocolate = +prompt('стоимость шоколадки?');
-// const rezultBuy = Math.floor(moneyInPoked / priceСhocolate);
-// const rezultMany = moneyInPoked % priceСhocolate;
+// const rezultBuy = moneyInPoked % priceСhocolate;
+// const rezultMany = (moneyInPoked - rezultBuy) /  priceСhocolate ;
 // alert(
-//   "результат покупки" + rezultBuy + "  остаток в кошелке" + "0," + rezultMany
+//   "результат покупки" + rezultMany + " остаток в кошелке" + rezultBuy
+// );
+
+//8???
+// const moneyInPoked = +prompt('сума в кармане?');
+// const priceСhocolate = +prompt('стоимость шоколадки?');
+// const rezultBuy = moneyInPoked % priceСhocolate;
+// const rezultMany = (moneyInPoked / priceСhocolate) - rezultBuy ;
+// alert(
+//   "результат покупки" + rezultMany + " остаток в кошелке" + rezultBuy
 // );
 
 //9
