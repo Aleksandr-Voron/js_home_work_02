@@ -62,3 +62,15 @@
 
 //4
 // const oldYears = prompt("pleas writiing old year");
+// if (oldYears % 400 === 0) {
+//   alert("hide year");
+// } else if (oldYears % 4 === 0 && oldYears % 100 !== 0) {
+//   alert("hide-year");
+// } else {
+//   alert("just year ");
+// }
+
+//5
+const oldYears = prompt("five number pleas!");
+const oneNumbers = ((oldYears % 1000) - (oldYears % 100)) / 100;
+alert(oneNumbers);
